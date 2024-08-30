@@ -1,0 +1,62 @@
+main{
+  display: block;
+  margin: auto;
+  flex-direction: column;
+  width: 700px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 30px;
+}
+img{
+  width: 400px;
+  border-radius: 15px;
+}
+audio{
+  width: 400px;
+}
+video{
+  height: 500px;
+  width: 500px;
+  border-radius: 5px;
+}
+footer{
+  text-align: center;
+}
+a{
+  text-decoration: none;
+}
+/* Media Queries */
+
+/* For tablets and up (min-width: 768px) */
+@media (min-width: 768px) {
+    main {
+      flex-direction: row; /*content side by side */
+    }
+  
+    
+  
+    .media {
+      flex: 3;
+    }
+  }
+  
+  /* For mobile devices (max-width: 767px) */
+  @media (max-width: 767px) {
+    main {
+      flex-direction: column; /* Stack content vertically */
+    }
+  
+    .media {
+      width: 100%; /* Make content take full width */
+      margin-bottom: 20px; /* Add space between stacked elements */
+    }
+  }
+  

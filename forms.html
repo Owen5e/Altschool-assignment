@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A brief description of your webpage">
+    <meta name="keywords" content="keyword1, keyword2, keyword3">
+    <meta name="author" content="Your Name">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/form.css">
+    <title>AltSchool SignUp</title>
+</head>
+<body>
+    <div class="firstsection">
+        <div class="backgroundcolor" background-color="black" width="500px"></div>
+        <div class="aside">
+        <img class="aside-image" src="./assets/altschool-image.png">
+        <div class="school-socials"></div>
+            <h1 class="image-text   ">
+                Learn highly sought after skills without hassle
+            </h1>
+        <p>Tel: 0800ALTSCHOOL</p>
+        <p>&copy;2024 AltSchool Africa. All rights reserved.</p>
+        </div>
+    </div>
+    
+    <main>
+        <div class="header">
+        <h3>Already an AltSchooler? <a href="#">Sign in</a></h3>
+        </div>
+        <div class="scroll">
+    <form class="secondsection" action="/submit-your-form-handler" method="post">
+        <h2 class="signup">Signup</h2>
+    <p class="pform">Take the next steps to apply at AltSchool Africa
+    </p>
+        <div class="firstrow">
+            <div class="rows">
+        <label for="firstname">First Name:</label><br>
+        <input placeholder="Enter First Name" type="text" id="firstname" name="firstname" required>
+            </div>
+            <div class="rows">
+        <label for="lastname">Last Name:</label><br>
+        <input placeholder="Enter Last Name" type="text" id="lastname" name="lastname" required>
+            </div>
+    </div>
+    <div class="secondrow">
+        <div class="rows">
+        <label for="gender">Gender</label><br>
+        <select id="gender" name="gender">
+            <option value="" disabled selected>Select gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+        </div>
+        <div class="rows">
+        <label for="date">Date Of Birth</label><br>
+        <input placeholder="" type="date" id="date" name="date" required>
+        </div>
+    </div>
+    <div class="thirdrow">
+        <div class="rows">
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required>
+    </div>
+        <div class="rows">
+        <label for="number">Phone Number</label><br>
+        <input placeholder="09084785764" type="number" id="number" name="number" required>
+        </div>
+    </div>
+
+    <div class="fourthrow">
+
+    <div class="rows">
+        <label for="country">Country</label><br>
+        <select class="country" id="country" name="country">
+            <option value="" disabled selected>Select Your Country</option>
+            <option value="Nigeria">Nigeria</option>
+            <option value="Canada">Canada</option>
+            <option value="USA">USA</option>
+        </select>
+    </div>
+    <div class="rows">
+        <label for="City">State/City of Residence</label><br>
+        <input placeholder="Enter your state of residence" type="text" id="City" name="City" required>
+    </div>
+    </div>
+    <div class="fifthrow">
+        <label for="channel">How did you hear about us?</label><br>
+        <select class="channel" id="channel" name="channel">
+            <option value="" disabled selected>Select channel</option>
+            <option value="Twitter">Twitter</option>
+            <option value="Facebook">Facebook</option>
+            <option value="Instagram">Instagram</option>
+        </select>
+    </div>
+
+        <div class="sixthrow">
+
+        <div class="rows">
+        <label for="password">Password</label><br>
+        <input placeholder="Enter password" type="text" id="password" name="password" required>
+        </div>
+        <div class="rows">
+        <label for="confirm password">Confirm Password</label><br>
+        <input placeholder="Enter password again" type="text" id="confirm password" name="confirm password" required>
+        </div> 
+    </div>
+        <div class="seventhrow">
+        <p class="pformfooter">
+            By clicking continue, I agree to  <a href="#"> Terms of Use</a> and acknowledge that I have read the  <a href="#"> Privacy Policy</a>.
+        </p>
+        
+        <input class="submit" type="submit" value="Submit">
+        </div>
+    </div>
+        
+    </form>
+    </main>
+</body>
+</html>
